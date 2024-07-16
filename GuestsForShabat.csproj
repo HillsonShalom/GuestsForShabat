@@ -99,6 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\DBContext.cs" />
+    <Compile Include="DAL\Seed.cs" />
     <Compile Include="HostForm.cs">
       <SubType>Form</SubType>
     </Compile>

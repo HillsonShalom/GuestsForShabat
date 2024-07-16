@@ -13,10 +13,10 @@ namespace GuestsForShabat
     {
 
         private string _connString;
-        public HostForm()
+        public HostForm(string connStr)
         {
             InitializeComponent();
-            _connString = GetConnectionString();
+            _connString = connStr;
             InitializeList();
         }
 
